@@ -1,0 +1,14 @@
+name: crisper
+description: A lightweight dependency injection through container for Dart and Flutter.
+version: 0.1.0
+author: Artem Dubrov <and@anadeainc.com>
+homepage: https://github.com/Anadea/crisper
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  test: ^1.6.4
+  pedantic: ^1.5.0
