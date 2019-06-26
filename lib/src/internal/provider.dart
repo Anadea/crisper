@@ -47,7 +47,7 @@ class _FactoryProvider<T> extends _BaseProvider<T> {
   _FactoryProvider._internal(T Function() factory) : super._internal(factory);
 
   @override
-  _build() => _factory();
+  T _build() => _factory();
 }
 
 /// LazyInstance [Provider] implementations used by the library.
